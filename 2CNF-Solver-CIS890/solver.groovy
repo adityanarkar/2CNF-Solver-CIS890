@@ -220,7 +220,7 @@ boolean checkSat() {
         println("UNSAT")
         result << args[0] + " " + "UNSAT "
     }
-    res = new File("All2CNFResult.txt")
+    res = new File("Result.txt")
     res << System.getProperty("line.separator").toString() + result
 
 }
